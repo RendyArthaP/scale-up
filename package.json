@@ -9,9 +9,7 @@
     "format": "prettier --write './**/*.{tsx,ts}'",
     "lint": "eslint --ext .ts,.tsx --fix --max-warnings 0 .",
     "type-check": "tsc -p .",
-    "prepare": "husky install",
-    "test": "jest",
-    "test:coverage": "jest --coverage"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
@@ -26,11 +24,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.4",
-    "@testing-library/dom": "^8.2.0",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
     "@types/node": "^16.7.10",
     "@types/react": "17.0.19",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
@@ -43,17 +36,13 @@
     "eslint-import-resolver-typescript": "^2.4.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-import-helpers": "^1.1.0",
-    "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-testing-library": "^4.12.0",
     "husky": "^7.0.2",
-    "jest": "^27.1.0",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
-    "ts-jest": "^27.0.5",
     "typescript": "4.4.2"
   }
 }
