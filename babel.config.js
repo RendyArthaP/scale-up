@@ -1,5 +1,5 @@
 module.exports = {
-  presets: ["next/babel"],
+  presets: ["next/babel", "@babel/preset-typescript"],
   plugins: [
     // [
     //   require.resolve("babel-plugin-module-resolver"),

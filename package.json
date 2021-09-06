@@ -8,6 +8,7 @@
     "start": "next start",
     "format": "prettier --write './**/*.{tsx,ts}'",
     "lint": "eslint --ext .ts,.tsx --fix --max-warnings 0 .",
+    "test:ci": "jest --coverage --silent --ci",
     "type-check": "tsc -p .",
     "prepare": "husky install"
   },
