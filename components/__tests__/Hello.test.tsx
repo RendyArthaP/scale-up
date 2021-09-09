@@ -1,8 +1,8 @@
 import { render, screen } from "@testing-library/react";
-import Test from "~/components/Test";
+import Hello from "~/components/Hello";
 
 it("renders hello", () => {
-  render(<Test />);
-  const element = screen.getByText("Test");
+  render(<Hello />);
+  const element = screen.getByText("Hello");
   expect(element).toBeInTheDocument();
 });
