@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "id": 0,
+      "title": "Product & Services",
+      "description": "We have prepared our product & services in audio, video, & blogs. It will be helpful for the user, to enchance in various fileds.",
+      "image": "https://res.cloudinary.com/rendyarthap/image/upload/v1631891387/ScaleUp/Why%20ScaleUp/product-services_vv9rxs.png"
+    },
+    {
+      "id": 1,
+      "title": "Connection",
+      "description": "Build a connection is a important things to scaleup your career. Be humble and polite with each other, and go scaleup your connection.",
+      "image": "https://res.cloudinary.com/rendyarthap/image/upload/v1631891386/ScaleUp/Why%20ScaleUp/connection_asprjm.png"
+    },
+    {
+      "id": 2,
+      "title": "Mentoring",
+      "description": "You could find another user , being willing to give you a mentoring. You can see the mentor suitable to your needs",
+      "image": "https://res.cloudinary.com/rendyarthap/image/upload/v1631891365/ScaleUp/Why%20ScaleUp/mentoring_uwvct9.png"
+    }
+  ]
+}

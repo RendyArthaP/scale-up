@@ -9,7 +9,7 @@ export default function Navbar() {
           <h1 className="text-orange text-4xl font-poppins font-bold">
             ScaleUp
           </h1>
-          <div className="hidden md:flex flex-row mx-4">
+          <div className="hidden md:flex flex-row mx-4 lg:mx-10">
             <Link href="/">
               <a className="font-poppins text-orange mx-2 text-base font-normal">
                 Video Tutorial
